@@ -1,0 +1,9 @@
+name: build-variance-report
+description: Create a review-ready report from validated revenue and driver inputs.
+input_schema:
+  type: object
+  additionalProperties: false
+  properties:
+    case_file: {type: string}
+    include_review_actions: {type: boolean}
+  required: [case_file]

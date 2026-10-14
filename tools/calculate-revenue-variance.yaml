@@ -1,0 +1,10 @@
+name: calculate-revenue-variance
+description: Calculate absolute and percentage revenue variance from supplied periods.
+input_schema:
+  type: object
+  additionalProperties: false
+  properties:
+    actual_revenue: {type: number, minimum: 0}
+    comparison_revenue: {type: number, minimum: 0}
+    currency: {type: string}
+  required: [actual_revenue, comparison_revenue, currency]

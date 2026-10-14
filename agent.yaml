@@ -1,0 +1,22 @@
+spec_version: "0.1.0"
+name: revenue-variance-explanation-agent
+version: "1.0.0"
+description: Explains revenue variances between actual and comparison periods using supplied drivers and transaction summaries.
+author: jagapathi-meesala
+license: MIT
+skills:
+  - revenue-analysis
+  - variance-bridge
+  - evidence-review
+tools:
+  - calculate-revenue-variance
+  - analyze-revenue-drivers
+  - build-variance-report
+runtime:
+  max_turns: 5
+  temperature: 0.2
+  timeout: 30
+tags:
+  - finance
+  - analytics
+  - variance-analysis

@@ -1,0 +1,11 @@
+{
+  "actual_revenue": 125000,
+  "comparison_revenue": 110000,
+  "currency": "USD",
+  "actual_period": "2026-Q3",
+  "comparison_period": "2026-Q2",
+  "drivers": [
+    {"name": "Higher sales volume", "amount": 9000, "evidence": "Sales operations estimate; validate against units sold"},
+    {"name": "Price and product mix", "amount": 4000, "evidence": "Management-provided estimate"}
+  ]
+}

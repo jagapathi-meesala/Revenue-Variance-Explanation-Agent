@@ -1,0 +1,9 @@
+name: analyze-revenue-drivers
+description: Reconcile supplied signed driver amounts to total revenue variance.
+input_schema:
+  type: object
+  additionalProperties: false
+  properties:
+    variance: {type: number}
+    drivers: {type: array, items: {type: object, additionalProperties: false, properties: {name: {type: string}, amount: {type: number}, evidence: {type: string}}, required: [name, amount]}}
+  required: [variance, drivers]
